@@ -1,0 +1,26 @@
+<%- layout("layouts/boilerplate") %> 
+
+<div class="row gy-3 lg">
+    <div class="title col-lg-12">
+        BitAccess
+    </div>
+    <div class="motto col-lg-10">
+        A simple and hassle-free link shortener.
+    </div>
+    <div class="feat col-lg-12">
+        *No registration required.
+    </div>
+
+    <div class="col">
+        <botton class="btn btn-primary show px-4">Get Started</botton>
+    </div>
+
+</div>
+
+
+<div class="visually-hidden mt-5 create">
+    <h2 class="mb-4">Shorten A Link</h2>
+    <%- include("partials/create") %>     
+    <h2 class="mt-5 mb-4">See Your Links</h2>
+    <%- include("partials/find") %>
+</div>

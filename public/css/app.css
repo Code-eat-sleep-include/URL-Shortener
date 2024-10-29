@@ -1,0 +1,109 @@
+body{    
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/bck.jpg");    
+    background-size:auto;    
+}
+
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 15vw;    
+    letter-spacing: 3px;
+    color:aliceblue;     
+}
+
+.motto {    
+    font-family: cursive;
+    font-size: 3em;
+    color:rgba(211, 219, 226);
+}
+
+.feat {
+    font-size: 1em;
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.7)
+}
+
+.show{
+    color: aliceblue;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin-top: 2rem;    
+}
+
+.form-label{
+    color:rgb(240, 248, 255);
+}
+.form-text{
+    color:rgb(240, 248, 255, 0.7);
+}
+
+h2{
+    font-family: cursive;
+    color:aliceblue;
+}
+
+.user{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color:aliceblue;
+}
+
+.item{
+    width: 100%;
+    /* height: 3rem; */
+    background-color: rgb(180, 220, 255);
+    border-radius: 20px;    
+    border: black solid 0.2rem;
+}
+
+.link{
+    flex-grow: 1;
+    max-width: 40%;
+    padding: 0.75rem 0;   
+    word-wrap: break-word; 
+}
+
+.sep{
+    height: 100%;
+    width: 0.2rem;
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 3rem;
+}
+
+.top{
+    font-family: cursive;
+    font-size: 2rem;
+    color:aliceblue;
+}
+
+.logo, .logo:hover{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.new{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color:aliceblue;
+}
+
+.back{
+    color: aliceblue;
+    font-size: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin-top: 2rem;       
+}
+
+
+@media screen and (max-width:992px) {    
+       
+}
